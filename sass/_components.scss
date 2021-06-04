@@ -1,0 +1,52 @@
+.tablet__btn {
+    background-color: $color-main-bg;
+    color: $color-primary;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+
+    &:hover {
+        background-color: $color-primary;
+        color: #fff;
+    }
+}
+
+.tablet__btn--filtered {
+    cursor: default;
+    padding-right: 0;
+
+    &:hover {
+        background-color: $color-main-bg;
+        color: $color-primary;
+    }
+
+    &::after {
+        position: relative;
+        content: 'X';
+        background-color: $color-primary;
+        color: #fff;
+        padding: 0.5rem 0.75rem;
+        cursor: pointer;
+        margin-left: 0.5rem;
+        border-radius: 0 0.3rem 0.3rem 0;
+    }
+}
+
+.right-border {
+    position: absolute;
+    left: 0;
+    height: 98%;
+    margin: 0;
+    width: 0;
+    border: 0.25rem solid $color-primary;
+    border-radius: .6rem 0 0 .6rem;
+}
+
+.single-line {
+    width: 100%;
+    margin: 1rem 0;
+    border-top: 0.1rem solid $color-grayish-cyan-dark-1;
+}

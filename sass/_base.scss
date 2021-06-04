@@ -1,0 +1,42 @@
+$color-primary: hsl(180, 29%, 50%);
+$color-main-bg: hsl(180, 52%, 96%);
+$color-fiilter-tablets: hsl(180, 31%, 95%);
+$color-grayish-cyan-dark-1: hsl(180, 8%, 52%);
+$color-grayish-cyan-dark-2: hsl(180, 14%, 20%);
+$font-size-main: 1.4rem;
+
+$light-blue-box-shadow: .2rem .4rem 1rem hsl(180, 29%, 50%, 0.3);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    background-color: $color-main-bg;
+    font-family: 'Spartan', sans-serif;
+    width: 100vw;
+}
+
+.header {
+    background-color: $color-primary;
+
+    &__img {
+        width: 100vw;
+        height: 10rem;
+        object-fit: cover;
+    }
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 769px) {
+    .main {
+        width: 94%;
+    }
+}
