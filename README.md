@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/ziqing-wang/job-listings/](https://your-solution-url.com)
-- Live Site URL: [https://job-listings-zi.netlify.app/](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ziqing-wang/job-listings/](https://github.com/ziqing-wang/job-listings/)
+- Live Site URL: [https://job-listings-zi.netlify.app/](https://job-listings-zi.netlify.app/)
 
 ## My process
 
